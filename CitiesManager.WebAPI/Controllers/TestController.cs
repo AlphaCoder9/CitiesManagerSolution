@@ -7,5 +7,10 @@ namespace CitiesManager.WebAPI.Controllers
     [ApiController]
     public class TestController : ControllerBase
     {
+        [HttpGet]
+        public string Get()
+        {
+            return "Hello World!";
+        }
     }
 }
