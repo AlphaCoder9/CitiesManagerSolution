@@ -18,7 +18,7 @@ namespace CitiesManager.WebAPI.DatabaseContext
         public virtual DbSet<City> Cities { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
+        {   // Optional Sample records
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<City>().HasData(new City() { CityID =
                 Guid.Parse("0739A798-1C11-4A61-B3AF-EDF11D02EF52"),
