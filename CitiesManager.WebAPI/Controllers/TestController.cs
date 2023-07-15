@@ -8,7 +8,7 @@ namespace CitiesManager.WebAPI.Controllers
     public class TestController : ControllerBase
     {
         [HttpGet]
-        public string Get()
+        public string Method()
         {
             return "Hello World!";
         }
