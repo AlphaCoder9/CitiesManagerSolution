@@ -49,7 +49,7 @@ namespace CitiesManager.WebAPI.Controllers
                 //return NotFound();
             }
 
-            return city;
+            return Ok(city);
         }
 
         // PUT: api/Cities/5
